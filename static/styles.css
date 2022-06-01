@@ -1,0 +1,48 @@
+.ul_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: bisque;
+}
+
+input {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.menu{
+  outline-style: dotted;
+  outline-color: antiquewhite;
+  outline-width: 3px;
+  outline-offset: 10px;
+  width: 200px;
+}
+tr{
+  display: flex;
+}
+td{
+  text-align: center;
+}
+
+.results{
+  margin-right: 100px;
+  margin-left: 300px;
+}
+
