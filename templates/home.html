@@ -11,10 +11,13 @@
     </ul>
     <div class="menu">
         <ul>
-            Min Z score<br> <input type="text" name="zScoreMin" size="5">
+        <form method="post">
+            <label for="zScoreMin" >Min Z score</label>
+            <input type="text" name="zScoreMin" size="5"><br>
+            <label for="zScoreMax" >Max Z score</label>
+            <input type="text" name="zScoreMax" size="5">
             <input type="submit" value="Submit"><br>
-            Max Z score<br> <input type="text" name="zScoreMax" size="5">
-            <input type="submit" value="Submit">
+        </form>
             <label for="patients">Select patient</label>
             <select name="patients" id="patients">
                 {% for patient in patients %}
